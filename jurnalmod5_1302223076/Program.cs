@@ -1,5 +1,6 @@
 ﻿using System.Diagnostics.CodeAnalysis;
 using System.Runtime.InteropServices;
+using static Penjumlahan;
 
 internal class Program
 {
@@ -7,6 +8,11 @@ internal class Program
     {
         
         Console.WriteLine(Penjumlahan.JumlahTigaAngka<int>(13, 02, 22));
+        SimpleDataBase<int> data = new SimpleDataBase<int>();
+        data.AddNewData(12);
+        data.AddNewData(13);
+        data.AddNewData(14);
+        data.PrintAllData();
     }
 }
 
@@ -22,6 +28,31 @@ public class Penjumlahan
 
         return hasil;
        
+    }
+    public class SimpleDataBase<T>
+    {
+
+        private List<T> storedData;
+        private List<DateTime> inputDates;
+        public SimpleDataBase()
+        {
+            storedData = new List<T> ();
+            inputDates = new List<DateTime>();
+        }
+        public void AddNewData(T Data)
+        {
+            storedData.Add (Data);
+            inputDates.Add (DateTime.Now);
+        }
+        public void PrintAllData()
+        {
+            for (int i = 0; i < storedData.Count; i++)
+            {
+                Console.WriteLine("Data "+ i+ "berisi :"+ storedData[i]+ " yang disimpan pada waktu UTC: " + inputDates[i]);
+            }
+
+        }
+
     }
 
    

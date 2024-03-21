@@ -12,3 +12,4 @@ D:\modul5_kpl\jurnalmod5_1302223076\jurnalmod5_1302223076\obj\Debug\net8.0\refin
 D:\modul5_kpl\jurnalmod5_1302223076\jurnalmod5_1302223076\obj\Debug\net8.0\jurnalmod5_1302223076.pdb
 D:\modul5_kpl\jurnalmod5_1302223076\jurnalmod5_1302223076\obj\Debug\net8.0\jurnalmod5_1302223076.genruntimeconfig.cache
 D:\modul5_kpl\jurnalmod5_1302223076\jurnalmod5_1302223076\obj\Debug\net8.0\ref\jurnalmod5_1302223076.dll
+D:\modul5_kpl\jurnalmod5_1302223076\jurnalmod5_1302223076\obj\Debug\net8.0\jurnalmod5_1302223076.sourcelink.json
